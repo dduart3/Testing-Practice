@@ -2,6 +2,7 @@
   "repository": "#",
   "license": "MIT",
   "scripts": {
+    "test": "jest --watch",
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack serve --no-hot  --watch-files /src --config ./bundler/webpack.dev.js"
   },
